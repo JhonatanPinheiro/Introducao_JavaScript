@@ -1,0 +1,94 @@
+.div-formulario{
+    
+}
+
+.div-container-resultado{
+    text-align: center;
+
+}
+.div-resultado{
+    background: #FFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+    align-content: center;
+    display: inline-block;
+}
+
+.h2-titulo{
+    font-size: 99%;
+    font-weight: lighter;
+}
+
+.formulario-principal, .fieldset-principal {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    width: 80%;
+}
+
+.div-botao-calcular{
+    text-align: center;
+}
+
+.botao-calcular-media {
+    margin: 10px 0;
+    width: 26%;
+}
+
+.img-selo-aprovado{
+    width: 70%;
+    
+    
+}
+.img-selo-reprovado{
+    width: 50%;
+    border-radius: 50%;
+    border: 8px groove red;
+    
+    
+}
+.span-nome-aluno{
+    font-weight: 900;
+
+}
+
+.span-media-aprovado-aluno-js{
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: 20px;
+    color: green;
+}
+.span-media-reprovado-aluno-js{
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: 20px;
+    color: red;
+}
+
+
+.label-nome-aluno {
+    margin-left: 2px;
+    margin-top: 14px;
+    padding: 0;
+    width: 80%;
+    
+}
+.input-nome-aluno {
+    margin-top: 14px;
+    padding: 0;
+    background: #FFF;
+    width: 80%;
+    /* text-transform: uppercase; */
+    
+}
+
+.div-nome-aluno{
+    
+    margin: auto;
+    width: 82.6%;
+    background: #778899;
+    text-align:  left;
+}

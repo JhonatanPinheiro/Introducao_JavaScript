@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minha Página Usando Js</title>
+        <meta charset="utf-8">
+        
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        
+        <script type="text/javascript" src="js/script.js"></script>    
+    </head>
+    <body>
+
+    <div class="div-formulario">
+        <form class="formulario-principal">
+            <h2 class="h2-titulo">Calculadora de Média de Notas</h2>
+            <div class="div-nome-aluno">
+                <label class="label-nome-aluno"> <span class="span-nome-aluno">Nome do Aluno:</span></label>
+                <input  id="nome_completo_aluno" class="input-nome-aluno" type="text" placeholder="Nome Completo" maxlength="50">
+                <br><br>
+            </div>
+
+            <fieldset class="fieldset-principal">
+                
+
+
+                <label> Nota 1 </label> 
+                <input  id="value_nota1" type="number"  min="0" max="10" step="0.01">  &nbsp;&nbsp;&nbsp;&nbsp;
+                <label> Peso da P1: </label>
+                <input  id="value_peso_nota1" type="number" min="0" max="1" step="0.1">
+                
+                <br>
+                <label> Nota 2 </label> 
+                <input  id="value_nota2" type="number" min="0" max="10" step="0.01">  &nbsp;&nbsp;&nbsp;&nbsp;
+                <label> Peso da P2: </label>
+                <input id="value_peso_nota2" type="number"min="0" max="1" step="0.1" >
+                
+                <br> 
+                <label> Nota 3 </label> 
+                <input id="value_nota3" type="number"  min="0" max="10" step="0.01">  &nbsp;&nbsp;&nbsp;&nbsp;
+                <label> Peso da P3: </label>
+                <input id="value_peso_nota3" type="number" min="0" max="1" step="0.1">
+                
+                <br>
+                <br>  
+            </fieldset>
+        </form>
+        
+        <div class="div-botao-calcular">
+            <input  onclick="botao_calcular_media()" class="botao-calcular-media" type="submit" value="Calcular">
+        </div>
+       
+    </div>
+
+                <div class="div-container-resultado">
+                    <div class="div-resultado" id="resultado-img"> 
+                        <p id="valorDigitado">
+
+                        </p>
+                        <p id="imgAprovacao">
+
+
+                        </p>
+                        
+                    </div>
+                </div> 
+
+
+    </body>
+
+
+
+
+
+
+    </html>
